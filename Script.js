@@ -60,7 +60,7 @@ function showNotes()
     {
         noteElm.innerHTML = html;
     } else {
-       
+        noteElm.innerHTML = "";
     }
 
 
