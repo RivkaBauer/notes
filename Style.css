@@ -1,0 +1,96 @@
+﻿html{
+    font-size:15px;
+}
+
+body {
+    background-color:white;
+}
+
+.container{
+    max-width:900px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+
+header h1{
+    font-size:30px;
+    color:#f74902;
+    line-height:2;
+    text-align:center;
+}
+
+header form{
+    display:flex ;
+    flex-direction:column;
+    width:40rem;
+    margin:0 auto;
+}
+
+form>*{
+    margin-bottom:5px;
+    outline:none;
+    font-size:1.4rem;
+    padding:7px;
+    border:1px #f74902;
+    border-style:solid;
+    border-radius:3px;    
+}
+
+form textarea{
+    padding:7px 0 40px 5px;
+    font-family:inherit;
+}
+
+form button{
+    background-color:#f74902;
+    color:white;
+    font-size:1.6rem;
+    cursor:pointer;
+    transition:all .3s;
+    text-align:center;
+}
+
+form button:hover{
+    background-color:black;
+}
+
+section h2{
+    background-color:#f74902;
+    font-size:30px;
+    color:white;
+    line-height:2;
+    text-align:center;
+    
+}
+
+.notes{
+    padding:1rem;
+    background-color:white;
+    border-radius:5px;
+    margin:1rem 0;
+}
+
+.note-btn-delete{
+    padding:7px;
+    margin-top:5px;
+    background-color:white;
+    outline:none;
+    border:#f74902;
+    border-style:solid;
+    border-radius:3px;
+    color:#f74902;
+    cursor:pointer;
+}
+
+.note-btn-edit{
+    padding:7px;
+    margin-top:5px;
+    background-color:#f74902;
+    outline:none;
+    border:#f74902;
+    border-style:solid;
+    border-radius:3px;
+    color:white;
+    cursor:pointer;
+}
+
